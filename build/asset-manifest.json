@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f895194.css",
+    "main.js": "/static/js/main.a84ddb4b.js",
+    "static/media/slide1.png": "/static/media/slide1.25174754b4fdb2cd8b7e.png",
+    "static/media/slide3.png": "/static/media/slide3.583a60099bc1cb9299f6.png",
+    "static/media/slide2.png": "/static/media/slide2.b5bddf49b5bfcfc819a9.png",
+    "static/media/image5.png": "/static/media/image5.d4ecd045043adebaada7.png",
+    "static/media/image3.png": "/static/media/image3.dcfffb2eccff28ba600b.png",
+    "static/media/image2.png": "/static/media/image2.ba52f3cfc5bf5109a8cf.png",
+    "static/media/image4.png": "/static/media/image4.28a208e3b91d10318c6a.png",
+    "static/media/image6.png": "/static/media/image6.577ac3d9553c7370e7a3.png",
+    "static/media/image1.png": "/static/media/image1.3e8e2e5949c600962f62.png",
+    "static/media/winsonLogo.jpeg": "/static/media/winsonLogo.fb89e0c4eecb4f7be2ce.jpeg",
+    "static/media/phone.svg": "/static/media/phone.b466cc45d7aafe9e5fbd162b6e515aff.svg",
+    "static/media/address.svg": "/static/media/address.351870b901810823cc7db9f86f4e54f8.svg",
+    "index.html": "/index.html",
+    "static/media/email.svg": "/static/media/email.34af7fca8a80708a47443da1ed562e9f.svg",
+    "main.2f895194.css.map": "/static/css/main.2f895194.css.map",
+    "main.a84ddb4b.js.map": "/static/js/main.a84ddb4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f895194.css",
+    "static/js/main.a84ddb4b.js"
+  ]
+}
