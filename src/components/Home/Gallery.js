@@ -15,10 +15,10 @@ const Gallery = () => {
   
     return (
       <div className="gallery-section">
-        {/* Title Above the Gallery */}
+    
         <h2 className="gallery-title">Gallery</h2>
   
-        {/* Gallery Grid */}
+       
         <div className="gallery-container">
           {images.map((img, index) => (
             <div className="gallery-item" key={index}>

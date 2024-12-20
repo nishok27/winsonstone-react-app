@@ -9,21 +9,21 @@ const Contact = () => {
     <div className="contact-container">
       <h2 className="contact-title">CONTACT US</h2>
       <div className="contact-grid">
-        {/* Telephone Section */}
+        {/* Telephone icon */}
         <div className="contact-item">
           <PhoneIcon className="contact-icon" />
           <h3>TELEPHONE</h3>
           <p>57879656</p>
         </div>
 
-        {/* Email Section */}
+        {/* Email icon */}
         <div className="contact-item">
           <EmailIcon className="contact-icon" />
           <h3>E-MAIL</h3>
           <p>winsonstone@gmail.com</p>
         </div>
 
-        {/* Address Section */}
+        {/* Address icon */}
         <div className="contact-item">
           <AddressIcon className="contact-icon" />
           <h3>ADDRESS</h3>

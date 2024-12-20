@@ -10,10 +10,10 @@ const Footer = () => {
             <div className="column">
                 <h3>Follow Us</h3>
                 <div className="social-icons">
-                    <a href="https://www.instagram.com" target="_blank" > <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} /> </a>
-                    <a href="https://www.youtube.com" target="_blank" ><FontAwesomeIcon icon={faYoutube} style={{color: "#ffffff",}} /> </a>
-                    <a href="https://www.facebook.com" target="_blank" ><FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff",}} /></a>
-                    <a href="https://www.whatsapp.com" target="_blank" ><FontAwesomeIcon icon={faWhatsapp} style={{color: "#ffffff",}} /> </a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" > <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} /> </a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" ><FontAwesomeIcon icon={faYoutube} style={{color: "#ffffff",}} /> </a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer noopener" ><FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff",}} /></a>
+                    <a href="https://www.whatsapp.com" target="_blank" rel="noreferrer noopener" ><FontAwesomeIcon icon={faWhatsapp} style={{color: "#ffffff",}} /> </a>
                 </div>
             </div>
 

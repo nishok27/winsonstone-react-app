@@ -1,4 +1,4 @@
-/* General Styling */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,9 +38,9 @@
     text-decoration: underline;
   }
   
-  /* Hamburger Menu Styling */
+  /* Hamburger Menu */
   .hamburger {
-    display: none; /* Hidden by default for larger screens */
+    display: none; /* will hide for larger screens */
     flex-direction: column;
     justify-content: space-between;
     height: 20px;
@@ -62,7 +62,7 @@
   /* Responsive Design */
   @media (max-width: 768px) {
     .nav-links {
-      display: none; /* Hidden by default for smaller screens */
+      display: none; /* will be hidden for smaller screens */
       flex-direction: column;
       position: absolute;
       top: 60px;

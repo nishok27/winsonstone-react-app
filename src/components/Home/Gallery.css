@@ -1,31 +1,31 @@
-/* Gallery Section Wrapper */
+
 .gallery-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px auto;
-    max-width: 1000px; /* Adjust the overall width */
+    max-width: 1000px; /* can adjust overall width */
     text-align: center;
   }
   
-  /* Text Above the Gallery */
+ 
   .gallery-title {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px; /* Space between text and gallery */
+    margin-bottom: 30px; /* Space between text and gallery */
     color: #333;
   }
   
   /* Gallery Grid Container */
   .gallery-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(3, 1fr); 
     grid-gap: 15px; /* Spacing between grid items */
     width: 100%; /* Full width of the gallery section */
     padding: 10px;
-    background-color: #f9f9f9; /* Optional background color for the gallery */
-    border-radius: 10px; /* Rounded edges */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   }
   
   /* Individual Grid Item */
@@ -46,13 +46,13 @@
   
   /* Hover Effect */
   .gallery-item img:hover {
-    transform: scale(1.1); /* Zoom effect on hover */
+    transform: scale(1.1); 
   }
   
   /* Responsive Design */
   @media (max-width: 768px) {
     .gallery-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+      grid-template-columns: repeat(2, 1fr); 
     }
     .gallery-section{
         max-width: 800px;
@@ -61,7 +61,7 @@
   
   @media (max-width: 480px) {
     .gallery-container {
-      grid-template-columns: 1fr; /* 1 column for smaller screens */
+      grid-template-columns: 1fr; 
     }
     .gallery-section{
         max-width: 600px;
