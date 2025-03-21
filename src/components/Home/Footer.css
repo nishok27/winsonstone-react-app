@@ -1,16 +1,16 @@
 .footer {
-    background-color: rgb(10, 101, 228);
+    background: linear-gradient(90deg, #0373b5, #25835f);
     color: #fff;
     padding: 20px 0;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 .footer .column {
-    flex: 1 1 200px;
+    /* flex: 1 1 200px; */
     margin: 10px;
 }
-.footer .column h3 {
+.footer .column h2 {
     margin-bottom: 15px;
     font-size: 18px;
     color: #fbb03b;
@@ -24,7 +24,7 @@
 }
 .footer .column ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .footer .column ul li a:hover {
     text-decoration: underline;

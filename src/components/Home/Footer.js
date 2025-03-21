@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer">
             {/* Follow Us */}
             <div className="column">
-                <h3>Follow Us</h3>
+                <h2>FOLLOW US</h2>
                 <div className="social-icons">
                     <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" > <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} /> </a>
                     <a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener" ><FontAwesomeIcon icon={faYoutube} style={{color: "#ffffff",}} /> </a>
@@ -19,18 +19,20 @@ const Footer = () => {
 
             {/* Products */}
             <div className="column">
-                <h3>Products</h3>
+                <h2>PRODUCTS</h2>
                 <ul>
-                    <li><a href="#">Product 1</a></li>
-                    <li><a href="#">Product 2</a></li>
-                    <li><a href="#">Product 3</a></li>
-                    <li><a href="#">Product 4</a></li>
+                    <li><a href="#">Granite</a></li>
+                    <li><a href="#">Monuments</a></li>
+                    <li><a href="#">Granite Tiles</a></li>
+                    <li><a href="#">Teakwood sand stone</a></li>
+                    <li><a href="#">Quartz stone</a></li>
+                    <li><a href="#">Marble</a></li>
                 </ul>
             </div>
 
             {/* Contact */}
             <div className="column">
-                <h3>Contact</h3>
+                <h2>CONTACT</h2>
                 <ul>
                     <li>winsonstone@gmail.com</li>
                     <li>Phone: +157879656</li>
@@ -39,7 +41,7 @@ const Footer = () => {
 
             {/* Office Address */}
             <div className="column">
-                <h3>Office Address</h3>
+                <h2>OFFICE ADDRESS</h2>
                 <p className="address">
                 New York,<br />
                 7899, United States, US.<br />

@@ -7,9 +7,11 @@ import "swiper/css/pagination"; // Pagination styles
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import "../Home/Slide.css"; // Custom styles
-import slide1 from "../../assets/Slider/slide1.png"
-import slide2 from "../../assets/Slider/slide2.png"
-import slide3 from "../../assets/Slider/slide3.png"
+import slide1 from "../../assets/Slider/slide1.jpeg"
+import slide2 from "../../assets/Slider/slide2.jpeg"
+import slide3 from "../../assets/Slider/slide3.jpeg"
+import slide4 from "../../assets/Slider/slide4.jpeg"
+import slide5 from "../../assets/Slider/slide5.jpeg"
 
 const Slider = () => {
   return (
@@ -25,7 +27,7 @@ const Slider = () => {
       >
         <SwiperSlide>
           <img
-            src={slide3}
+            src={slide1}
             alt="Slide 1"
           />
         </SwiperSlide>
@@ -37,14 +39,20 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={slide1}
+            src={slide3}
             alt="Slide 3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={slide2}
+            src={slide4}
             alt="Slide 4"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={slide5}
+            alt="Slide 5"
           />
         </SwiperSlide>
       </Swiper>
